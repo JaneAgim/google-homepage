@@ -1,8 +1,8 @@
 img {
     position: fixed;
-    top: 200px;
-    left: 575px;
-    transform: scale(0.95)
+    top: 195px;
+    left: 585px;
+    transform: scale(1)
 }
 .rightalign {
     float: right;
@@ -28,11 +28,11 @@ input {
     position: fixed;
     top: 325px;
     left: 600px;
-    transform: scale(2);
+    transform: scale(2.05);
     border: 1px solid #f2f2f2;
     border-radius: 15px;
     font-size: 8px;
-    padding: 7px;
+    padding: 6px;
 }
 a {
     text-decoration: none;
@@ -46,8 +46,8 @@ a:hover {
 }
 button {
     position: relative;
-    top: 390px;
-    left: 450px;
+    top: 380px;
+    left: 470px;
     padding: 10px;
     margin-right: 5px;
     border: 0px;
@@ -55,7 +55,7 @@ button {
 }
 button:hover {
     
-    transform: scale(1.1);
+    transform: scale(2.1);
 }
 .signin {
     background-color: #4285f4;

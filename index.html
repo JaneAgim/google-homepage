@@ -1,90 +1,42 @@
 <!DOCTYPE html>
-<style>
-    img {
-        position: fixed;
-        top: 200px;
-        left: 575px;
-        transform: scale(0.95)
-    }
-    .rightalign {
-        float: right;
-        margin-right: 20px;
-    }
-    .leftalign {
-        float: left;
-        margin-left: 20px;
-    }
-    .border {
-        padding-top: 15px;
-    }
-    footer {
-        background-color:#f2f2f2;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-        padding: 10px 0px 10px;
-        margin-left: -10px;
-    }
-    input {
-        width: 270px;
-        position: fixed;
-        top: 325px;
-        left: 600px;
-        transform: scale(2);
-        border: 1px solid #f2f2f2;
-        border-radius: 15px;
-        font-size: 8px;
-        padding: 7px;
-    }
-    a {
-        text-decoration: none;
-        color: gray;
-        font-weight: 100;
-        font-family: "arial", sans-serif;
-        font-size: 14px;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    button {
-        position: relative;
-        top: 390px;
-        left: 450px;
-        padding: 10px;
-        margin-right: 5px;
-    }
-    .signin {
-        background-color: #4285f4;
-        padding: 10px;
-        margin: 5px;
-        color: white;
-        font-weight: 700;
-    }
-</style>
-
 <html>
-    <main>
-    <nav>
+    <head>
+        <title>Jane's Google</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head> 
+
+    <body>
+        <header>
+        <nav>
             <a class="leftalign border" href="#About">About</a>
             <a class="leftalign border" href="#Store">Store</a>
             <a class="rightalign border signin" href="#SignIn">Sign In</a>
             <a class="rightalign border" href="#Images">Images</a>
             <a class="rightalign border" href="#Gmail">Gmail</a>
-    </nav>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-    <form for="searchbar" action="file:///Users/chisomagim/Documents/Coding/the_odin_project/google-homepage/index.html">
-        <input id="searchbar" type="text" name="search" placeholder="Search Google or type in a URL">
-        <button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button>
-    </form>
+        </nav>
+        </header>
     
-    <footer>
-        <a class="leftalign" href="#Advertising">Advertising</a>
-        <a class="leftalign" href="#Business">Business</a>
-        <a class="leftalign" href="#How Search Works">How Search Works</a>
-        <a class="rightalign" href="#Settings">Settings</a>
-        <a class="rightalign" href="#Terms">Terms</a>
-        <a class="rightalign" href="#Privacy">Privacy</a>
-    </footer>
-    </main>
+        <main>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            <form for="searchbar">
+                <input id="searchbar" type="type" name="search" placeholder="Search Google or type in a URL">
+                <button type="submit">
+                    <a href="https://www.google.com">Google Search</a>
+                </button>
+                <button type="submit">
+                    <a href="https://www.google.com">I'm Feeling Lucky</a>
+                </button>
+            </form>
+        
+            <footer>
+                <a class="leftalign" href="#Advertising">Advertising</a>
+                <a class="leftalign" href="#Business">Business</a>
+                <a class="leftalign" href="#How Search Works">How Search Works</a>
+                <a class="rightalign" href="#Settings">Settings</a>
+                <a class="rightalign" href="#Terms">Terms</a>
+                <a class="rightalign" href="#Privacy">Privacy</a>
+            </footer>
+        </main>
+    </body> 
+    
 </html>

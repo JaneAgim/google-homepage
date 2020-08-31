@@ -1,0 +1,66 @@
+img {
+    position: fixed;
+    top: 200px;
+    left: 575px;
+    transform: scale(0.95)
+}
+.rightalign {
+    float: right;
+    margin-right: 20px;
+}
+.leftalign {
+    float: left;
+    margin-left: 20px;
+}
+.border {
+    padding-top: 15px;
+}
+footer {
+    background-color:#f2f2f2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0px 10px;
+    margin-left: -10px;
+}
+input {
+    width: 270px;
+    position: fixed;
+    top: 325px;
+    left: 600px;
+    transform: scale(2);
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    font-size: 8px;
+    padding: 7px;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+    font-family: "arial", sans-serif;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    position: relative;
+    top: 390px;
+    left: 450px;
+    padding: 10px;
+    margin-right: 5px;
+    border: 0px;
+    appearance: push-button;
+}
+button:hover {
+    
+    transform: scale(1.1);
+}
+.signin {
+    background-color: #4285f4;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-weight: 700;
+}

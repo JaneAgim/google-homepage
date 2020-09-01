@@ -2,7 +2,6 @@ img {
     position: absolute;
     top: 195px;
     left: 585px;
-    transform: scale(1)
 }
 .rightalign {
     float: right;
@@ -24,6 +23,7 @@ footer {
     margin-left: -10px;
 }
 input {
+    outline: none;
     width: 270px;
     position: absolute;
     top: 325px;
@@ -33,6 +33,7 @@ input {
     border-radius: 15px;
     font-size: 8px;
     padding: 6px;
+    text-indent: 15px;
 }
 a {
     text-decoration: none;
@@ -47,11 +48,12 @@ a:hover {
 button {
     position: relative;
     top: 380px;
-    left: 470px;
+    left: 435px;
     padding: 10px;
     margin-right: 5px;
     border: 0px;
     appearance: push-button;
+    border-radius: 5px;
 }
 button:hover {
     
@@ -59,8 +61,23 @@ button:hover {
 }
 .signin {
     background-color: #4285f4;
-    padding: 10px;
+    padding: 9px;
     margin: 5px;
     color: white;
     font-weight: 700;
+    border-radius: 3px;
+}
+.magnifying-glass {
+    width: 25px;
+    height: auto;
+    position: relative;
+    top: 315px;
+    left: 345px;
+}
+.microphone {
+    width: 25px;
+    height: auto;
+    position: relative;
+    top: 315px;
+    left: 845px;
 }

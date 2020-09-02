@@ -1,7 +1,7 @@
 img {
-    position: absolute;
-    top: 195px;
-    left: 585px;
+    position: fixed;
+    top: 25vh;
+    left: 41vw;
 }
 .rightalign {
     float: right;
@@ -24,10 +24,10 @@ footer {
 }
 input {
     outline: none;
-    width: 270px;
-    position: absolute;
-    top: 325px;
-    left: 600px;
+    width: 19vw;
+    position: fixed;
+    top: 41.2vh;
+    left: 41.7vw;
     transform: scale(2.05);
     border: 1px solid #f2f2f2;
     border-radius: 15px;
@@ -45,18 +45,30 @@ a {
 a:hover {
     text-decoration: underline;
 }
-button {
-    position: relative;
-    top: 380px;
-    left: 435px;
+.button1 {
+    position: fixed;
+    top: 50vh;
+    left: 42.5vw;
     padding: 10px;
-    margin-right: 5px;
     border: 0px;
     appearance: push-button;
     border-radius: 5px;
+    width: 8vw;
+}
+.button2 {
+    position: fixed;
+    top: 50vh;
+    left: 51vw;
+    padding: 10px;
+    border: 0px;
+    appearance: push-button;
+    border-radius: 5px;
+    width: 8vw;
+}
+button a {
+    font-size: 90%;
 }
 button:hover {
-    
     transform: scale(1.1);
 }
 .signin {
@@ -70,14 +82,14 @@ button:hover {
 .magnifying-glass {
     width: 25px;
     height: auto;
-    position: relative;
-    top: 315px;
-    left: 345px;
+    position: fixed;
+    top: 41vh;
+    left: 32.3vw;
 }
 .microphone {
     width: 25px;
     height: auto;
-    position: relative;
-    top: 315px;
-    left: 845px;
+    position: fixed;
+    top: 41.3vh;
+    left: 69vw;
 }
